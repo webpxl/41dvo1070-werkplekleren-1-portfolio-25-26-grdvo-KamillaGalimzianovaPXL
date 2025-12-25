@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #F8F7F3;
+}
+
+.cover {
+    background: #E3CEDF;
+    color: #70269E;
+    padding: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.cover h1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 70px;
+    margin: none;
+}
+
+.cover div {
+    display: flex;
+    justify-content: center;
+    margin: none;
+
+}
+
+.jaar {
+    margin-left: 100px;
+    background: #70269E;
+    color: white;
+    padding: 2px 18px;
+    border-radius: 25px;
+    font-size: 11px;
+}
+
+.naam {
+    display: flex;
+    justify-content: center;
+}
+
+.strokinfo {
+    border-bottom: 1px solid #70269E;
+    border-top: 1px solid #70269E;
+    color: #70269E;
+    padding: 25px;
+    margin-bottom: 60px;
+}
+
+.voornaam {
+    font-weight: 500;
+    margin-top: 10px;
+}
