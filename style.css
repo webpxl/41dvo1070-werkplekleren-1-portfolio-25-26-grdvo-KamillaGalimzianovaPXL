@@ -415,6 +415,17 @@ button:hover {
   .projecten img {
     width: 100%;
   }
+  .profiel-foto {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .profiel-foto img {
+    width: 280px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 576px) {
@@ -435,8 +446,10 @@ button:hover {
 
   /* Profielfoto */
   .profiel-foto {
-    width: 180px;
+    width: 200px;
     height: auto;
+    border-radius: 50%;
+    padding: 10px;
   }
 
   .profiel-foto img {
