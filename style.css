@@ -4,6 +4,7 @@
 }
 body {
     background: #F8F7F3;
+    font-family: 'Jost','Khula', sans-serif;
 }
 
 .cover {
@@ -481,5 +482,62 @@ button:hover {
   }
 }
 
+/* Leerdoelen */
 
+.leerdoelen {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid #B380D2;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.leerdoelen h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #B380D2;
+    padding-bottom: 30px;
+    color: #70269E;
+    margin-bottom: 15px;
+}
+
+.leerdoelen h3 {
+    text-transform: uppercase;
+    color: #70269E;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.leerdoelen p {
+    padding-bottom: 15px;
+}
+
+.reflectie {
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.leerdoel-knop a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.leerdoel-knop {
+    margin: 10px;
+}
+
+.eindreflectie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.eindreflectie img {
+    margin: 30px;
+}
 
